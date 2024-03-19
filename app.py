@@ -78,7 +78,8 @@ writer = Agent(
 
 task1 = Task(
   description="""Research cases about appeals in administrative proceedings regulated by Law No. 9,784/99 according to the Superior Court of Justice and the Federal Council of Medicine in Brazil""",
-  agent=researcher
+  agent=researcher,
+  expected_output='A refined finalized version of the blog post in markdown format'
 )
 
 task2 = Task(
@@ -88,7 +89,8 @@ task2 = Task(
   Make it sound precise, and never invent facts.
   Your final answer MUST be the full blog post of at least 30 paragraphs.
   The target word count for the blog post should be between 5,500 and 20,500 words, with a sweet spot at around 10,450 words.""",
-  agent=writer
+  agent=writer,
+  expected_output='A refined finalized version of the blog post in markdown format'
 )
 
 
