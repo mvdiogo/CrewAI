@@ -10,8 +10,9 @@ CrewAI Internet Search Agents is a Python project that utilizes the CrewAI tool 
 2. [Features](#features)
 3. [Installation](#installation)
 4. [Dependencies](#dependencies)
-5. [Contributing](#contributing)
-6. [License](#license)
+5. [Tools](#tools)
+6. [Contributing](#contributing)
+7. [License](#license)
 
 ## Introduction
 
@@ -53,6 +54,15 @@ Install them using:
 ```bash
 pip install -r requirements.txt
 ```
+
+## Tools
+
+For more tools please read the [documentation](https://docs.crewai.com/core-concepts/Tools/)
+- docs_tool = DirectoryReadTool(directory='./blog-posts')
+- file_tool = FileReadTool()
+- search_tool = SerperDevTool()
+- web_rag_tool = WebsiteSearchTool()
+
 
 ## Contributing
 
